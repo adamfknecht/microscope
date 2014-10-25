@@ -1,5 +1,5 @@
 if (Posts.find().count() == 0) {
-    Posts.inset({
+    Posts.insert({
         title: "Introducing Telescope",
         url: "http://sachagreif.com"
     });
